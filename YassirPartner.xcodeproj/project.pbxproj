@@ -11,6 +11,17 @@
 		FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2950DB2BF9ED08001BD6EF /* ContentView.swift */; };
 		FA2950DE2BF9ED0B001BD6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2950DD2BF9ED0B001BD6EF /* Assets.xcassets */; };
 		FA2950E12BF9ED0B001BD6EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2950E02BF9ED0B001BD6EF /* Preview Assets.xcassets */; };
+		FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2950ED2BF9F341001BD6EF /* LocationManager.swift */; };
+		FA2950F22BF9F4EC001BD6EF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FA2950F12BF9F4EC001BD6EF /* Realm */; };
+		FA2950F42BF9F4EC001BD6EF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA2950F32BF9F4EC001BD6EF /* RealmSwift */; };
+		FA2950F62BF9FA79001BD6EF /* OpenRealmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */; };
+		FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2950F82BF9FB04001BD6EF /* RealmManager.swift */; };
+		FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2950FA2BF9FF21001BD6EF /* RealmConfig.swift */; };
+		FA2950FE2BFA0123001BD6EF /* atlasConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2950FD2BFA0123001BD6EF /* atlasConfig.plist */; };
+		FA2951012BFA022C001BD6EF /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951002BFA022C001BD6EF /* Partner.swift */; };
+		FA2951032BFA253B001BD6EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951022BFA253B001BD6EF /* Location.swift */; };
+		FA2951052BFA278C001BD6EF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951042BFA278C001BD6EF /* Mission.swift */; };
+		FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,15 @@
 		FA2950DB2BF9ED08001BD6EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA2950DD2BF9ED0B001BD6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2950E02BF9ED0B001BD6EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2950ED2BF9F341001BD6EF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenRealmView.swift; sourceTree = "<group>"; };
+		FA2950F82BF9FB04001BD6EF /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		FA2950FA2BF9FF21001BD6EF /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		FA2950FD2BFA0123001BD6EF /* atlasConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = atlasConfig.plist; sourceTree = "<group>"; };
+		FA2951002BFA022C001BD6EF /* Partner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
+		FA2951022BFA253B001BD6EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FA2951042BFA278C001BD6EF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		FA2951062BFA2BAA001BD6EF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2950F42BF9F4EC001BD6EF /* RealmSwift in Frameworks */,
+				FA2950F22BF9F4EC001BD6EF /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +57,7 @@
 		FA2950CD2BF9ED08001BD6EF = {
 			isa = PBXGroup;
 			children = (
+				FA2950FD2BFA0123001BD6EF /* atlasConfig.plist */,
 				FA2950D82BF9ED08001BD6EF /* YassirPartner */,
 				FA2950D72BF9ED08001BD6EF /* Products */,
 			);
@@ -51,6 +74,11 @@
 		FA2950D82BF9ED08001BD6EF /* YassirPartner */ = {
 			isa = PBXGroup;
 			children = (
+				FA2950EB2BF9F23E001BD6EF /* services */,
+				FA2950EA2BF9F236001BD6EF /* screens */,
+				FA2950E92BF9F229001BD6EF /* ressources */,
+				FA2950E82BF9F21F001BD6EF /* extensions */,
+				FA2950E72BF9F1A4001BD6EF /* components */,
 				FA2950D92BF9ED08001BD6EF /* YassirPartnerApp.swift */,
 				FA2950DB2BF9ED08001BD6EF /* ContentView.swift */,
 				FA2950DD2BF9ED0B001BD6EF /* Assets.xcassets */,
@@ -65,6 +93,73 @@
 				FA2950E02BF9ED0B001BD6EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2950E72BF9F1A4001BD6EF /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		FA2950E82BF9F21F001BD6EF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		FA2950E92BF9F229001BD6EF /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ressources;
+			sourceTree = "<group>";
+		};
+		FA2950EA2BF9F236001BD6EF /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		FA2950EB2BF9F23E001BD6EF /* services */ = {
+			isa = PBXGroup;
+			children = (
+				FA2950FF2BFA01D3001BD6EF /* Models */,
+				FA2950F72BF9FAEE001BD6EF /* RealmManager */,
+				FA2950EC2BF9F332001BD6EF /* LocationManager */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		FA2950EC2BF9F332001BD6EF /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA2950ED2BF9F341001BD6EF /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		FA2950F72BF9FAEE001BD6EF /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA2950F82BF9FB04001BD6EF /* RealmManager.swift */,
+				FA2950FA2BF9FF21001BD6EF /* RealmConfig.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
+		FA2950FF2BFA01D3001BD6EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951002BFA022C001BD6EF /* Partner.swift */,
+				FA2951022BFA253B001BD6EF /* Location.swift */,
+				FA2951042BFA278C001BD6EF /* Mission.swift */,
+				FA2951062BFA2BAA001BD6EF /* Task.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +178,10 @@
 			dependencies = (
 			);
 			name = YassirPartner;
+			packageProductDependencies = (
+				FA2950F12BF9F4EC001BD6EF /* Realm */,
+				FA2950F32BF9F4EC001BD6EF /* RealmSwift */,
+			);
 			productName = YassirPartner;
 			productReference = FA2950D62BF9ED08001BD6EF /* YassirPartner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,10 @@
 				Base,
 			);
 			mainGroup = FA2950CD2BF9ED08001BD6EF;
+			packageReferences = (
+				FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = FA2950D72BF9ED08001BD6EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2950E12BF9ED0B001BD6EF /* Preview Assets.xcassets in Resources */,
+				FA2950FE2BFA0123001BD6EF /* atlasConfig.plist in Resources */,
 				FA2950DE2BF9ED0B001BD6EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2950F62BF9FA79001BD6EF /* OpenRealmView.swift in Sources */,
 				FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */,
+				FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */,
+				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,
+				FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */,
 				FA2950DA2BF9ED08001BD6EF /* YassirPartnerApp.swift in Sources */,
+				FA2951012BFA022C001BD6EF /* Partner.swift in Sources */,
+				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
+				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
+				FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +456,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA2950F12BF9F4EC001BD6EF /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		FA2950F32BF9F4EC001BD6EF /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA2950CE2BF9ED08001BD6EF /* Project object */;
 }

@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct YassirPartnerApp: App {
+struct YassirPartnerApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear{
+                    LocationManager.shared.requestLocation()
+                    Logger.shared.level = .trace
+                }
         }
     }
 }
+
