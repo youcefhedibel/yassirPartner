@@ -1,5 +1,5 @@
 {
-  "originHash" : "3902b9e53d0d7f10e7a0be131f293676c90b55ba75a4fddd6d6487cd19e8abb8",
+  "originHash" : "29e170aa161a2922c036b79c774dc3d133096ac4e5d38bbe75fe7a7e4cbffecf",
   "pins" : [
     {
       "identity" : "ios-maps-sdk",
@@ -11,12 +11,21 @@
       }
     },
     {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "769b88d83a42ca8d5572b020c96f47e3690b3796",
+        "version" : "4.4.3"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
       "state" : {
-        "revision" : "9cf7ef4ad8e2f4c7a519c9a395ca3d253bb87aa8",
-        "version" : "14.6.2"
+        "revision" : "a5e87a39cffdcc591f3203c11cfca68100d0b9a6",
+        "version" : "13.26.0"
       }
     },
     {
@@ -24,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-swift.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "a478ed826130f1a2419dbe19a26bd3fd905258d1"
+        "revision" : "e7f82d1721d99c7149a0af3d0424df9070a1a646",
+        "version" : "10.48.1"
       }
     }
   ],

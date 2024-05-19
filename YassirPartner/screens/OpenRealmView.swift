@@ -17,18 +17,17 @@ struct OpenRealmView: View {
     var body: some View {
         switch autoOpen {
         case .connecting:
-            ProgressView()
+            ProgressView().onAppear{ print("connecting") }
+            
         case .waitingForUser:
             ProgressView("Waiting for user to log in...")
-        case .open(let realm):
-            if let currentTripId = driver.currentTripId {
-//                TripFlowView(id: currentTripId)
-            } else {
-                HomeView(driver: driver)
-            }
             
+        case .open(let realm):
+            EmptyView()
+                //HomeView(driver: driver)
         case .progress(let progress):
-            SplashView(progress: progress)
+            ProgressView(progress).onAppear{ print("progress") }
+            //SplashView(progress: progress)
         case .error(let error):
             EmptyView()
         }

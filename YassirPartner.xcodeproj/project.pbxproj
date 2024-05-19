@@ -22,6 +22,32 @@
 		FA2951032BFA253B001BD6EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951022BFA253B001BD6EF /* Location.swift */; };
 		FA2951052BFA278C001BD6EF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951042BFA278C001BD6EF /* Mission.swift */; };
 		FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Task.swift */; };
+		FA2951122BFA4B6E001BD6EF /* progress-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2951082BFA4B6E001BD6EF /* progress-animation.json */; };
+		FA2951132BFA4B6E001BD6EF /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */; };
+		FA2951142BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */; };
+		FA2951152BFA4B6E001BD6EF /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */; };
+		FA2951162BFA4B6E001BD6EF /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */; };
+		FA2951172BFA4B6E001BD6EF /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */; };
+		FA2951182BFA4B6E001BD6EF /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2951102BFA4B6E001BD6EF /* style.json */; };
+		FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951192BFA4B91001BD6EF /* Realm.swift */; };
+		FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */; };
+		FA2951232BFA4B91001BD6EF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511C2BFA4B91001BD6EF /* Text.swift */; };
+		FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511D2BFA4B91001BD6EF /* UIAplication.swift */; };
+		FA2951252BFA4B91001BD6EF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511E2BFA4B91001BD6EF /* Font.swift */; };
+		FA2951262BFA4B91001BD6EF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511F2BFA4B91001BD6EF /* Color.swift */; };
+		FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951202BFA4B91001BD6EF /* CGFloat.swift */; };
+		FA2951302BFA4BB5001BD6EF /* YassirButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951282BFA4BB5001BD6EF /* YassirButton.swift */; };
+		FA2951312BFA4BB5001BD6EF /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */; };
+		FA2951322BFA4BB5001BD6EF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */; };
+		FA2951332BFA4BB5001BD6EF /* MapViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */; };
+		FA2951342BFA4BB5001BD6EF /* CircleBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */; };
+		FA2951352BFA4BB5001BD6EF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512E2BFA4BB5001BD6EF /* LottieView.swift */; };
+		FA2951362BFA4BB5001BD6EF /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512F2BFA4BB5001BD6EF /* BackButton.swift */; };
+		FA29513B2BFA4D87001BD6EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513A2BFA4D87001BD6EF /* Lottie */; };
+		FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513D2BFA4EAF001BD6EF /* GoogleMaps */; };
+		FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */; };
+		FA2951422BFA4EBB001BD6EF /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = FA2951412BFA4EBB001BD6EF /* GoogleMapsCore */; };
+		FA2951442BFA4EBE001BD6EF /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = FA2951432BFA4EBE001BD6EF /* GoogleMapsM4B */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +65,27 @@
 		FA2951022BFA253B001BD6EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FA2951042BFA278C001BD6EF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		FA2951062BFA2BAA001BD6EF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FA2951082BFA4B6E001BD6EF /* progress-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "progress-animation.json"; sourceTree = "<group>"; };
+		FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA2951102BFA4B6E001BD6EF /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		FA2951192BFA4B91001BD6EF /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncSubscriptionSet.swift; sourceTree = "<group>"; };
+		FA29511C2BFA4B91001BD6EF /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text.swift; path = ../../../YassirGO/YassirRider/Extensions/Text.swift; sourceTree = "<group>"; };
+		FA29511D2BFA4B91001BD6EF /* UIAplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAplication.swift; path = ../../../YassirGO/YassirRider/Extensions/UIAplication.swift; sourceTree = "<group>"; };
+		FA29511E2BFA4B91001BD6EF /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = ../../../YassirGO/YassirRider/Extensions/Font.swift; sourceTree = "<group>"; };
+		FA29511F2BFA4B91001BD6EF /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = ../../../YassirGO/YassirRider/Extensions/Color.swift; sourceTree = "<group>"; };
+		FA2951202BFA4B91001BD6EF /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloat.swift; path = ../../../YassirGO/YassirRider/Extensions/CGFloat.swift; sourceTree = "<group>"; };
+		FA2951282BFA4BB5001BD6EF /* YassirButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YassirButton.swift; path = ../../../YassirGO/YassirRider/Components/YassirButton.swift; sourceTree = "<group>"; };
+		FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationButton.swift; path = ../../../YassirGO/YassirRider/Components/NavigationButton.swift; sourceTree = "<group>"; };
+		FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
+		FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleBButton.swift; path = ../../../YassirGO/YassirRider/Components/CircleBButton.swift; sourceTree = "<group>"; };
+		FA29512E2BFA4BB5001BD6EF /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LottieView.swift; path = ../../../YassirGO/YassirRider/Components/LottieView.swift; sourceTree = "<group>"; };
+		FA29512F2BFA4BB5001BD6EF /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = ../../../YassirGO/YassirRider/Components/BackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +93,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */,
+				FA2951442BFA4EBE001BD6EF /* GoogleMapsM4B in Frameworks */,
+				FA2951422BFA4EBB001BD6EF /* GoogleMapsCore in Frameworks */,
+				FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */,
 				FA2950F42BF9F4EC001BD6EF /* RealmSwift in Frameworks */,
 				FA2950F22BF9F4EC001BD6EF /* Realm in Frameworks */,
+				FA29513B2BFA4D87001BD6EF /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +112,7 @@
 				FA2950FD2BFA0123001BD6EF /* atlasConfig.plist */,
 				FA2950D82BF9ED08001BD6EF /* YassirPartner */,
 				FA2950D72BF9ED08001BD6EF /* Products */,
+				FA29513C2BFA4EA2001BD6EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +151,12 @@
 		FA2950E72BF9F1A4001BD6EF /* components */ = {
 			isa = PBXGroup;
 			children = (
+				FA29512F2BFA4BB5001BD6EF /* BackButton.swift */,
+				FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */,
+				FA29512E2BFA4BB5001BD6EF /* LottieView.swift */,
+				FA29512C2BFA4BB5001BD6EF /* MapView */,
+				FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */,
+				FA2951282BFA4BB5001BD6EF /* YassirButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -105,6 +164,12 @@
 		FA2950E82BF9F21F001BD6EF /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA2951202BFA4B91001BD6EF /* CGFloat.swift */,
+				FA29511F2BFA4B91001BD6EF /* Color.swift */,
+				FA29511E2BFA4B91001BD6EF /* Font.swift */,
+				FA29511B2BFA4B91001BD6EF /* Realm */,
+				FA29511C2BFA4B91001BD6EF /* Text.swift */,
+				FA29511D2BFA4B91001BD6EF /* UIAplication.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -112,6 +177,9 @@
 		FA2950E92BF9F229001BD6EF /* ressources */ = {
 			isa = PBXGroup;
 			children = (
+				FA29510F2BFA4B6E001BD6EF /* Font */,
+				FA2951092BFA4B6E001BD6EF /* Lottie */,
+				FA2951112BFA4B6E001BD6EF /* MapStyle */,
 			);
 			path = ressources;
 			sourceTree = "<group>";
@@ -162,6 +230,64 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		FA2951092BFA4B6E001BD6EF /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951082BFA4B6E001BD6EF /* progress-animation.json */,
+			);
+			name = Lottie;
+			path = ../../../YassirGO/YassirRider/Ressources/Lottie;
+			sourceTree = "<group>";
+		};
+		FA29510F2BFA4B6E001BD6EF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */,
+				FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */,
+				FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */,
+				FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */,
+				FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */,
+			);
+			name = Font;
+			path = ../../../YassirGO/YassirRider/Ressources/Font;
+			sourceTree = "<group>";
+		};
+		FA2951112BFA4B6E001BD6EF /* MapStyle */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951102BFA4B6E001BD6EF /* style.json */,
+			);
+			name = MapStyle;
+			path = ../../../YassirGO/YassirRider/Ressources/MapStyle;
+			sourceTree = "<group>";
+		};
+		FA29511B2BFA4B91001BD6EF /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951192BFA4B91001BD6EF /* Realm.swift */,
+				FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */,
+			);
+			name = Realm;
+			path = ../../../YassirGO/YassirRider/Extensions/Realm;
+			sourceTree = "<group>";
+		};
+		FA29512C2BFA4BB5001BD6EF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */,
+				FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */,
+			);
+			name = MapView;
+			path = ../../../YassirGO/YassirRider/Components/MapView;
+			sourceTree = "<group>";
+		};
+		FA29513C2BFA4EA2001BD6EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +307,11 @@
 			packageProductDependencies = (
 				FA2950F12BF9F4EC001BD6EF /* Realm */,
 				FA2950F32BF9F4EC001BD6EF /* RealmSwift */,
+				FA29513A2BFA4D87001BD6EF /* Lottie */,
+				FA29513D2BFA4EAF001BD6EF /* GoogleMaps */,
+				FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */,
+				FA2951412BFA4EBB001BD6EF /* GoogleMapsCore */,
+				FA2951432BFA4EBE001BD6EF /* GoogleMapsM4B */,
 			);
 			productName = YassirPartner;
 			productReference = FA2950D62BF9ED08001BD6EF /* YassirPartner.app */;
@@ -213,6 +344,7 @@
 			packageReferences = (
 				FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
 				FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */,
+				FA2951392BFA4D87001BD6EF /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = FA2950D72BF9ED08001BD6EF /* Products */;
 			projectDirPath = "";
@@ -228,9 +360,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2951172BFA4B6E001BD6EF /* Rubik-SemiBold.ttf in Resources */,
 				FA2950E12BF9ED0B001BD6EF /* Preview Assets.xcassets in Resources */,
+				FA2951162BFA4B6E001BD6EF /* Rubik-Regular.ttf in Resources */,
+				FA2951182BFA4B6E001BD6EF /* style.json in Resources */,
+				FA2951122BFA4B6E001BD6EF /* progress-animation.json in Resources */,
 				FA2950FE2BFA0123001BD6EF /* atlasConfig.plist in Resources */,
 				FA2950DE2BF9ED0B001BD6EF /* Assets.xcassets in Resources */,
+				FA2951142BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf in Resources */,
+				FA2951132BFA4B6E001BD6EF /* Rubik-Bold.ttf in Resources */,
+				FA2951152BFA4B6E001BD6EF /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,13 +381,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2950F62BF9FA79001BD6EF /* OpenRealmView.swift in Sources */,
+				FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */,
+				FA2951342BFA4BB5001BD6EF /* CircleBButton.swift in Sources */,
+				FA2951252BFA4B91001BD6EF /* Font.swift in Sources */,
+				FA2951332BFA4BB5001BD6EF /* MapViewControllerBridge.swift in Sources */,
+				FA2951322BFA4BB5001BD6EF /* MapViewController.swift in Sources */,
 				FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */,
+				FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */,
+				FA2951362BFA4BB5001BD6EF /* BackButton.swift in Sources */,
+				FA2951312BFA4BB5001BD6EF /* NavigationButton.swift in Sources */,
+				FA2951262BFA4B91001BD6EF /* Color.swift in Sources */,
+				FA2951302BFA4BB5001BD6EF /* YassirButton.swift in Sources */,
 				FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */,
+				FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */,
 				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,
 				FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */,
 				FA2950DA2BF9ED08001BD6EF /* YassirPartnerApp.swift in Sources */,
+				FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */,
+				FA2951232BFA4B91001BD6EF /* Text.swift in Sources */,
 				FA2951012BFA022C001BD6EF /* Partner.swift in Sources */,
 				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
+				FA2951352BFA4BB5001BD6EF /* LottieView.swift in Sources */,
 				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
 				FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */,
 			);
@@ -470,8 +623,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = exactVersion;
+				version = 10.48.1;
+			};
+		};
+		FA2951392BFA4D87001BD6EF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -486,6 +647,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		FA29513A2BFA4D87001BD6EF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2951392BFA4D87001BD6EF /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		FA29513D2BFA4EAF001BD6EF /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		FA2951412BFA4EBB001BD6EF /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		FA2951432BFA4EBE001BD6EF /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
