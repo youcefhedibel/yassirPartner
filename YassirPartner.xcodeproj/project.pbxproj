@@ -36,18 +36,21 @@
 		FA2951252BFA4B91001BD6EF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511E2BFA4B91001BD6EF /* Font.swift */; };
 		FA2951262BFA4B91001BD6EF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511F2BFA4B91001BD6EF /* Color.swift */; };
 		FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951202BFA4B91001BD6EF /* CGFloat.swift */; };
-		FA2951302BFA4BB5001BD6EF /* YassirButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951282BFA4BB5001BD6EF /* YassirButton.swift */; };
-		FA2951312BFA4BB5001BD6EF /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */; };
-		FA2951322BFA4BB5001BD6EF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */; };
-		FA2951332BFA4BB5001BD6EF /* MapViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */; };
-		FA2951342BFA4BB5001BD6EF /* CircleBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */; };
-		FA2951352BFA4BB5001BD6EF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512E2BFA4BB5001BD6EF /* LottieView.swift */; };
-		FA2951362BFA4BB5001BD6EF /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29512F2BFA4BB5001BD6EF /* BackButton.swift */; };
 		FA29513B2BFA4D87001BD6EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513A2BFA4D87001BD6EF /* Lottie */; };
 		FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513D2BFA4EAF001BD6EF /* GoogleMaps */; };
 		FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */; };
 		FA2951422BFA4EBB001BD6EF /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = FA2951412BFA4EBB001BD6EF /* GoogleMapsCore */; };
 		FA2951442BFA4EBE001BD6EF /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = FA2951432BFA4EBE001BD6EF /* GoogleMapsM4B */; };
+		FA29514D2BFB40EB001BD6EF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29514A2BFB40EB001BD6EF /* MapViewController.swift */; };
+		FA29514E2BFB40EB001BD6EF /* MapViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29514B2BFB40EB001BD6EF /* MapViewControllerBridge.swift */; };
+		FA2951552BFB411E001BD6EF /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29514F2BFB411E001BD6EF /* NavigationButton.swift */; };
+		FA2951562BFB411E001BD6EF /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951502BFB411E001BD6EF /* RatingView.swift */; };
+		FA2951572BFB411E001BD6EF /* CircleBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951512BFB411E001BD6EF /* CircleBButton.swift */; };
+		FA2951582BFB411E001BD6EF /* YassirButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951522BFB411E001BD6EF /* YassirButton.swift */; };
+		FA2951592BFB411E001BD6EF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951532BFB411E001BD6EF /* LottieView.swift */; };
+		FA29515A2BFB411E001BD6EF /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951542BFB411E001BD6EF /* BackButton.swift */; };
+		FA29515C2BFB4144001BD6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29515B2BFB4144001BD6EF /* AppDelegate.swift */; };
+		FA29515F2BFB419B001BD6EF /* HomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29515E2BFB419B001BD6EF /* HomeMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,13 +82,16 @@
 		FA29511E2BFA4B91001BD6EF /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = ../../../YassirGO/YassirRider/Extensions/Font.swift; sourceTree = "<group>"; };
 		FA29511F2BFA4B91001BD6EF /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = ../../../YassirGO/YassirRider/Extensions/Color.swift; sourceTree = "<group>"; };
 		FA2951202BFA4B91001BD6EF /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloat.swift; path = ../../../YassirGO/YassirRider/Extensions/CGFloat.swift; sourceTree = "<group>"; };
-		FA2951282BFA4BB5001BD6EF /* YassirButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YassirButton.swift; path = ../../../YassirGO/YassirRider/Components/YassirButton.swift; sourceTree = "<group>"; };
-		FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationButton.swift; path = ../../../YassirGO/YassirRider/Components/NavigationButton.swift; sourceTree = "<group>"; };
-		FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
-		FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleBButton.swift; path = ../../../YassirGO/YassirRider/Components/CircleBButton.swift; sourceTree = "<group>"; };
-		FA29512E2BFA4BB5001BD6EF /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LottieView.swift; path = ../../../YassirGO/YassirRider/Components/LottieView.swift; sourceTree = "<group>"; };
-		FA29512F2BFA4BB5001BD6EF /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = ../../../YassirGO/YassirRider/Components/BackButton.swift; sourceTree = "<group>"; };
+		FA29514A2BFB40EB001BD6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FA29514B2BFB40EB001BD6EF /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
+		FA29514F2BFB411E001BD6EF /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		FA2951502BFB411E001BD6EF /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FA2951512BFB411E001BD6EF /* CircleBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBButton.swift; sourceTree = "<group>"; };
+		FA2951522BFB411E001BD6EF /* YassirButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YassirButton.swift; sourceTree = "<group>"; };
+		FA2951532BFB411E001BD6EF /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		FA2951542BFB411E001BD6EF /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		FA29515B2BFB4144001BD6EF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA29515E2BFB419B001BD6EF /* HomeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,13 +133,14 @@
 		FA2950D82BF9ED08001BD6EF /* YassirPartner */ = {
 			isa = PBXGroup;
 			children = (
+				FA2951492BFB40D6001BD6EF /* Components */,
 				FA2950EB2BF9F23E001BD6EF /* services */,
 				FA2950EA2BF9F236001BD6EF /* screens */,
 				FA2950E92BF9F229001BD6EF /* ressources */,
 				FA2950E82BF9F21F001BD6EF /* extensions */,
-				FA2950E72BF9F1A4001BD6EF /* components */,
 				FA2950D92BF9ED08001BD6EF /* YassirPartnerApp.swift */,
 				FA2950DB2BF9ED08001BD6EF /* ContentView.swift */,
+				FA29515B2BFB4144001BD6EF /* AppDelegate.swift */,
 				FA2950DD2BF9ED0B001BD6EF /* Assets.xcassets */,
 				FA2950DF2BF9ED0B001BD6EF /* Preview Content */,
 			);
@@ -148,26 +155,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FA2950E72BF9F1A4001BD6EF /* components */ = {
-			isa = PBXGroup;
-			children = (
-				FA29512F2BFA4BB5001BD6EF /* BackButton.swift */,
-				FA29512D2BFA4BB5001BD6EF /* CircleBButton.swift */,
-				FA29512E2BFA4BB5001BD6EF /* LottieView.swift */,
-				FA29512C2BFA4BB5001BD6EF /* MapView */,
-				FA2951292BFA4BB5001BD6EF /* NavigationButton.swift */,
-				FA2951282BFA4BB5001BD6EF /* YassirButton.swift */,
-			);
-			path = components;
-			sourceTree = "<group>";
-		};
 		FA2950E82BF9F21F001BD6EF /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA29511B2BFA4B91001BD6EF /* Realm */,
 				FA2951202BFA4B91001BD6EF /* CGFloat.swift */,
 				FA29511F2BFA4B91001BD6EF /* Color.swift */,
 				FA29511E2BFA4B91001BD6EF /* Font.swift */,
-				FA29511B2BFA4B91001BD6EF /* Realm */,
 				FA29511C2BFA4B91001BD6EF /* Text.swift */,
 				FA29511D2BFA4B91001BD6EF /* UIAplication.swift */,
 			);
@@ -187,6 +181,7 @@
 		FA2950EA2BF9F236001BD6EF /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				FA29515D2BFB418F001BD6EF /* HomeScreen */,
 				FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */,
 			);
 			path = screens;
@@ -271,21 +266,42 @@
 			path = ../../../YassirGO/YassirRider/Extensions/Realm;
 			sourceTree = "<group>";
 		};
-		FA29512C2BFA4BB5001BD6EF /* MapView */ = {
-			isa = PBXGroup;
-			children = (
-				FA29512A2BFA4BB5001BD6EF /* MapViewController.swift */,
-				FA29512B2BFA4BB5001BD6EF /* MapViewControllerBridge.swift */,
-			);
-			name = MapView;
-			path = ../../../YassirGO/YassirRider/Components/MapView;
-			sourceTree = "<group>";
-		};
 		FA29513C2BFA4EA2001BD6EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2951492BFB40D6001BD6EF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951542BFB411E001BD6EF /* BackButton.swift */,
+				FA2951512BFB411E001BD6EF /* CircleBButton.swift */,
+				FA2951532BFB411E001BD6EF /* LottieView.swift */,
+				FA29514F2BFB411E001BD6EF /* NavigationButton.swift */,
+				FA2951502BFB411E001BD6EF /* RatingView.swift */,
+				FA2951522BFB411E001BD6EF /* YassirButton.swift */,
+				FA29514C2BFB40EB001BD6EF /* MapView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA29514C2BFB40EB001BD6EF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				FA29514A2BFB40EB001BD6EF /* MapViewController.swift */,
+				FA29514B2BFB40EB001BD6EF /* MapViewControllerBridge.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		FA29515D2BFB418F001BD6EF /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA29515E2BFB419B001BD6EF /* HomeMapView.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,28 +398,31 @@
 			files = (
 				FA2950F62BF9FA79001BD6EF /* OpenRealmView.swift in Sources */,
 				FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */,
-				FA2951342BFA4BB5001BD6EF /* CircleBButton.swift in Sources */,
+				FA2951572BFB411E001BD6EF /* CircleBButton.swift in Sources */,
 				FA2951252BFA4B91001BD6EF /* Font.swift in Sources */,
-				FA2951332BFA4BB5001BD6EF /* MapViewControllerBridge.swift in Sources */,
-				FA2951322BFA4BB5001BD6EF /* MapViewController.swift in Sources */,
+				FA29515A2BFB411E001BD6EF /* BackButton.swift in Sources */,
 				FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */,
 				FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */,
-				FA2951362BFA4BB5001BD6EF /* BackButton.swift in Sources */,
-				FA2951312BFA4BB5001BD6EF /* NavigationButton.swift in Sources */,
 				FA2951262BFA4B91001BD6EF /* Color.swift in Sources */,
-				FA2951302BFA4BB5001BD6EF /* YassirButton.swift in Sources */,
+				FA29515C2BFB4144001BD6EF /* AppDelegate.swift in Sources */,
+				FA2951562BFB411E001BD6EF /* RatingView.swift in Sources */,
 				FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */,
 				FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */,
 				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,
 				FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */,
+				FA2951582BFB411E001BD6EF /* YassirButton.swift in Sources */,
 				FA2950DA2BF9ED08001BD6EF /* YassirPartnerApp.swift in Sources */,
 				FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */,
 				FA2951232BFA4B91001BD6EF /* Text.swift in Sources */,
+				FA2951552BFB411E001BD6EF /* NavigationButton.swift in Sources */,
+				FA29514D2BFB40EB001BD6EF /* MapViewController.swift in Sources */,
 				FA2951012BFA022C001BD6EF /* Partner.swift in Sources */,
+				FA29514E2BFB40EB001BD6EF /* MapViewControllerBridge.swift in Sources */,
+				FA29515F2BFB419B001BD6EF /* HomeMapView.swift in Sources */,
 				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
-				FA2951352BFA4BB5001BD6EF /* LottieView.swift in Sources */,
 				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
 				FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */,
+				FA2951592BFB411E001BD6EF /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
