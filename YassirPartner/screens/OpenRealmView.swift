@@ -15,19 +15,16 @@ struct OpenRealmView: View {
     let realmManager = RealmManager.shared
 
     var body: some View {
+        Text("BATATA TATA").font(.black, .regular, 30)
         switch autoOpen {
         case .connecting:
             ProgressView().onAppear{ print("connecting") }
-            
         case .waitingForUser:
-            ProgressView("Waiting for user to log in...")
-            
+            LoginScreen()
         case .open(let realm):
-            EmptyView()
-                //HomeView(driver: driver)
+            HomeScreen()
         case .progress(let progress):
             ProgressView(progress).onAppear{ print("progress") }
-            //SplashView(progress: progress)
         case .error(let error):
             EmptyView()
         }

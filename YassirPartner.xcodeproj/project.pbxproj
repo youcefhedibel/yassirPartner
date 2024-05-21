@@ -21,7 +21,7 @@
 		FA2951012BFA022C001BD6EF /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951002BFA022C001BD6EF /* Partner.swift */; };
 		FA2951032BFA253B001BD6EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951022BFA253B001BD6EF /* Location.swift */; };
 		FA2951052BFA278C001BD6EF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951042BFA278C001BD6EF /* Mission.swift */; };
-		FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Task.swift */; };
+		FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Taskk.swift */; };
 		FA2951122BFA4B6E001BD6EF /* progress-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2951082BFA4B6E001BD6EF /* progress-animation.json */; };
 		FA2951132BFA4B6E001BD6EF /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */; };
 		FA2951142BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */; };
@@ -51,6 +51,12 @@
 		FA29515A2BFB411E001BD6EF /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951542BFB411E001BD6EF /* BackButton.swift */; };
 		FA29515C2BFB4144001BD6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29515B2BFB4144001BD6EF /* AppDelegate.swift */; };
 		FA29515F2BFB419B001BD6EF /* HomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29515E2BFB419B001BD6EF /* HomeMapView.swift */; };
+		FA2951622BFB9759001BD6EF /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951612BFB9759001BD6EF /* LoginScreen.swift */; };
+		FA2951642BFB976B001BD6EF /* LoginScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951632BFB976B001BD6EF /* LoginScreenModel.swift */; };
+		FA2951662BFB97E5001BD6EF /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951652BFB97E5001BD6EF /* HomeScreen.swift */; };
+		FA2951682BFB9805001BD6EF /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951672BFB9805001BD6EF /* HomeScreenModel.swift */; };
+		FA29516B2BFC9CCB001BD6EF /* LoginRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29516A2BFC9CCB001BD6EF /* LoginRepo.swift */; };
+		FA29516D2BFCE2E6001BD6EF /* PartnerRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +73,7 @@
 		FA2951002BFA022C001BD6EF /* Partner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
 		FA2951022BFA253B001BD6EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FA2951042BFA278C001BD6EF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
-		FA2951062BFA2BAA001BD6EF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FA2951062BFA2BAA001BD6EF /* Taskk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskk.swift; sourceTree = "<group>"; };
 		FA2951082BFA4B6E001BD6EF /* progress-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "progress-animation.json"; sourceTree = "<group>"; };
 		FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -92,6 +98,12 @@
 		FA2951542BFB411E001BD6EF /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		FA29515B2BFB4144001BD6EF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA29515E2BFB419B001BD6EF /* HomeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMapView.swift; sourceTree = "<group>"; };
+		FA2951612BFB9759001BD6EF /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		FA2951632BFB976B001BD6EF /* LoginScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenModel.swift; sourceTree = "<group>"; };
+		FA2951652BFB97E5001BD6EF /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FA2951672BFB9805001BD6EF /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		FA29516A2BFC9CCB001BD6EF /* LoginRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepo.swift; sourceTree = "<group>"; };
+		FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +193,7 @@
 		FA2950EA2BF9F236001BD6EF /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				FA2951602BFB9740001BD6EF /* LoginScreen */,
 				FA29515D2BFB418F001BD6EF /* HomeScreen */,
 				FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */,
 			);
@@ -190,6 +203,7 @@
 		FA2950EB2BF9F23E001BD6EF /* services */ = {
 			isa = PBXGroup;
 			children = (
+				FA2951692BFC9CB8001BD6EF /* Repository */,
 				FA2950FF2BFA01D3001BD6EF /* Models */,
 				FA2950F72BF9FAEE001BD6EF /* RealmManager */,
 				FA2950EC2BF9F332001BD6EF /* LocationManager */,
@@ -220,7 +234,7 @@
 				FA2951002BFA022C001BD6EF /* Partner.swift */,
 				FA2951022BFA253B001BD6EF /* Location.swift */,
 				FA2951042BFA278C001BD6EF /* Mission.swift */,
-				FA2951062BFA2BAA001BD6EF /* Task.swift */,
+				FA2951062BFA2BAA001BD6EF /* Taskk.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,8 +314,28 @@
 			isa = PBXGroup;
 			children = (
 				FA29515E2BFB419B001BD6EF /* HomeMapView.swift */,
+				FA2951652BFB97E5001BD6EF /* HomeScreen.swift */,
+				FA2951672BFB9805001BD6EF /* HomeScreenModel.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		FA2951602BFB9740001BD6EF /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA2951612BFB9759001BD6EF /* LoginScreen.swift */,
+				FA2951632BFB976B001BD6EF /* LoginScreenModel.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		FA2951692BFC9CB8001BD6EF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FA29516A2BFC9CCB001BD6EF /* LoginRepo.swift */,
+				FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,13 +434,16 @@
 				FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */,
 				FA2951572BFB411E001BD6EF /* CircleBButton.swift in Sources */,
 				FA2951252BFA4B91001BD6EF /* Font.swift in Sources */,
+				FA29516D2BFCE2E6001BD6EF /* PartnerRepo.swift in Sources */,
 				FA29515A2BFB411E001BD6EF /* BackButton.swift in Sources */,
 				FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */,
 				FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */,
+				FA2951682BFB9805001BD6EF /* HomeScreenModel.swift in Sources */,
 				FA2951262BFA4B91001BD6EF /* Color.swift in Sources */,
 				FA29515C2BFB4144001BD6EF /* AppDelegate.swift in Sources */,
 				FA2951562BFB411E001BD6EF /* RatingView.swift in Sources */,
-				FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */,
+				FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */,
+				FA2951642BFB976B001BD6EF /* LoginScreenModel.swift in Sources */,
 				FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */,
 				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,
 				FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */,
@@ -419,8 +456,11 @@
 				FA2951012BFA022C001BD6EF /* Partner.swift in Sources */,
 				FA29514E2BFB40EB001BD6EF /* MapViewControllerBridge.swift in Sources */,
 				FA29515F2BFB419B001BD6EF /* HomeMapView.swift in Sources */,
+				FA29516B2BFC9CCB001BD6EF /* LoginRepo.swift in Sources */,
 				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
 				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
+				FA2951662BFB97E5001BD6EF /* HomeScreen.swift in Sources */,
+				FA2951622BFB9759001BD6EF /* LoginScreen.swift in Sources */,
 				FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */,
 				FA2951592BFB411E001BD6EF /* LottieView.swift in Sources */,
 			);
@@ -559,6 +599,7 @@
 				DEVELOPMENT_TEAM = 4S9KHKZW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application need to get your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +629,7 @@
 				DEVELOPMENT_TEAM = 4S9KHKZW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This application need to get your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

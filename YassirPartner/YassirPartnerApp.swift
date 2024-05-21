@@ -15,7 +15,7 @@ struct YassirPartnerApp: SwiftUI.App {
             ContentView()
                 .onAppear{
                     LocationManager.shared.requestLocation()
-                    Logger.shared.level = .trace
+//                    Logger.shared.level = .trace
                 }
         }
     }

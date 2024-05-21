@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-extension HomeScreen {
+//extension HomeScreen {
     struct Mapview: View {
         let currentMarker: Marker
         let markers: [Marker]
@@ -17,4 +17,4 @@ extension HomeScreen {
             MapViewControllerBridge(nearbyDrivers: markers, currentMarker: currentMarker)
         }
     }
-}
+//}

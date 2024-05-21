@@ -6,19 +6,26 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct ContentView: View {
+    @StateObject private var realmManager = RealmManager.shared
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        Text("El hadj Hocine").font(.black, .regular, 30)
 
-#Preview {
-    ContentView()
+        if nil != realmManager.realm {
+            ZStack{
+                if let realm = realmManager.realm {
+                    OpenRealmView()
+                }
+            }
+            .task{  await realmManager.initialize() }
+        } else {
+            LoginScreen()
+        }
+    }
+    
+    private func runTasks() async {
+        await realmManager.initialize()
+    }
 }

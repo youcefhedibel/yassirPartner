@@ -5,6 +5,6 @@
 	<key>baseUrl</key>
 	<string>https://services.cloud.mongodb.com</string>
 	<key>appId</key>
-	<string></string>
+	<string>application-0-lucfrud</string>
 </dict>
 </plist>
