@@ -22,20 +22,6 @@
 		FA2951032BFA253B001BD6EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951022BFA253B001BD6EF /* Location.swift */; };
 		FA2951052BFA278C001BD6EF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951042BFA278C001BD6EF /* Mission.swift */; };
 		FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Taskk.swift */; };
-		FA2951122BFA4B6E001BD6EF /* progress-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2951082BFA4B6E001BD6EF /* progress-animation.json */; };
-		FA2951132BFA4B6E001BD6EF /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */; };
-		FA2951142BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */; };
-		FA2951152BFA4B6E001BD6EF /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */; };
-		FA2951162BFA4B6E001BD6EF /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */; };
-		FA2951172BFA4B6E001BD6EF /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */; };
-		FA2951182BFA4B6E001BD6EF /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = FA2951102BFA4B6E001BD6EF /* style.json */; };
-		FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951192BFA4B91001BD6EF /* Realm.swift */; };
-		FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */; };
-		FA2951232BFA4B91001BD6EF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511C2BFA4B91001BD6EF /* Text.swift */; };
-		FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511D2BFA4B91001BD6EF /* UIAplication.swift */; };
-		FA2951252BFA4B91001BD6EF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511E2BFA4B91001BD6EF /* Font.swift */; };
-		FA2951262BFA4B91001BD6EF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29511F2BFA4B91001BD6EF /* Color.swift */; };
-		FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951202BFA4B91001BD6EF /* CGFloat.swift */; };
 		FA29513B2BFA4D87001BD6EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513A2BFA4D87001BD6EF /* Lottie */; };
 		FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513D2BFA4EAF001BD6EF /* GoogleMaps */; };
 		FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */; };
@@ -57,6 +43,20 @@
 		FA2951682BFB9805001BD6EF /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951672BFB9805001BD6EF /* HomeScreenModel.swift */; };
 		FA29516B2BFC9CCB001BD6EF /* LoginRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29516A2BFC9CCB001BD6EF /* LoginRepo.swift */; };
 		FA29516D2BFCE2E6001BD6EF /* PartnerRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */; };
+		FA668E922C048AB100371628 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA668E872C048AB100371628 /* Rubik-Bold.ttf */; };
+		FA668E932C048AB100371628 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA668E882C048AB100371628 /* Rubik-ExtraBold.ttf */; };
+		FA668E942C048AB100371628 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA668E892C048AB100371628 /* Rubik-Medium.ttf */; };
+		FA668E952C048AB100371628 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA668E8A2C048AB100371628 /* Rubik-Regular.ttf */; };
+		FA668E962C048AB100371628 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA668E8B2C048AB100371628 /* Rubik-SemiBold.ttf */; };
+		FA668E972C048AB100371628 /* progress-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA668E8D2C048AB100371628 /* progress-animation.json */; };
+		FA668E982C048AB100371628 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = FA668E8F2C048AB100371628 /* style.json */; };
+		FA668EA22C048AC500371628 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E992C048AC500371628 /* Realm.swift */; };
+		FA668EA32C048AC500371628 /* SyncSubscriptionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9A2C048AC500371628 /* SyncSubscriptionSet.swift */; };
+		FA668EA42C048AC500371628 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9C2C048AC500371628 /* CGFloat.swift */; };
+		FA668EA52C048AC500371628 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9D2C048AC500371628 /* Color.swift */; };
+		FA668EA62C048AC500371628 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9E2C048AC500371628 /* Font.swift */; };
+		FA668EA72C048AC500371628 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9F2C048AC500371628 /* Text.swift */; };
+		FA668EA82C048AC500371628 /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668EA02C048AC500371628 /* UIAplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,20 +74,6 @@
 		FA2951022BFA253B001BD6EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FA2951042BFA278C001BD6EF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		FA2951062BFA2BAA001BD6EF /* Taskk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskk.swift; sourceTree = "<group>"; };
-		FA2951082BFA4B6E001BD6EF /* progress-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "progress-animation.json"; sourceTree = "<group>"; };
-		FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
-		FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
-		FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
-		FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
-		FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
-		FA2951102BFA4B6E001BD6EF /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
-		FA2951192BFA4B91001BD6EF /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
-		FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncSubscriptionSet.swift; sourceTree = "<group>"; };
-		FA29511C2BFA4B91001BD6EF /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Text.swift; path = ../../../YassirGO/YassirRider/Extensions/Text.swift; sourceTree = "<group>"; };
-		FA29511D2BFA4B91001BD6EF /* UIAplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAplication.swift; path = ../../../YassirGO/YassirRider/Extensions/UIAplication.swift; sourceTree = "<group>"; };
-		FA29511E2BFA4B91001BD6EF /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = ../../../YassirGO/YassirRider/Extensions/Font.swift; sourceTree = "<group>"; };
-		FA29511F2BFA4B91001BD6EF /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = ../../../YassirGO/YassirRider/Extensions/Color.swift; sourceTree = "<group>"; };
-		FA2951202BFA4B91001BD6EF /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloat.swift; path = ../../../YassirGO/YassirRider/Extensions/CGFloat.swift; sourceTree = "<group>"; };
 		FA29514A2BFB40EB001BD6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FA29514B2BFB40EB001BD6EF /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
 		FA29514F2BFB411E001BD6EF /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
@@ -104,6 +90,20 @@
 		FA2951672BFB9805001BD6EF /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
 		FA29516A2BFC9CCB001BD6EF /* LoginRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepo.swift; sourceTree = "<group>"; };
 		FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerRepo.swift; sourceTree = "<group>"; };
+		FA668E872C048AB100371628 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		FA668E882C048AB100371628 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA668E892C048AB100371628 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		FA668E8A2C048AB100371628 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		FA668E8B2C048AB100371628 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA668E8D2C048AB100371628 /* progress-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "progress-animation.json"; sourceTree = "<group>"; };
+		FA668E8F2C048AB100371628 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		FA668E992C048AC500371628 /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		FA668E9A2C048AC500371628 /* SyncSubscriptionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncSubscriptionSet.swift; sourceTree = "<group>"; };
+		FA668E9C2C048AC500371628 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		FA668E9D2C048AC500371628 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FA668E9E2C048AC500371628 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FA668E9F2C048AC500371628 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		FA668EA02C048AC500371628 /* UIAplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,11 +145,11 @@
 		FA2950D82BF9ED08001BD6EF /* YassirPartner */ = {
 			isa = PBXGroup;
 			children = (
+				FA668EA12C048AC500371628 /* Extensions */,
+				FA668E912C048AB100371628 /* Ressources */,
 				FA2951492BFB40D6001BD6EF /* Components */,
 				FA2950EB2BF9F23E001BD6EF /* services */,
 				FA2950EA2BF9F236001BD6EF /* screens */,
-				FA2950E92BF9F229001BD6EF /* ressources */,
-				FA2950E82BF9F21F001BD6EF /* extensions */,
 				FA2950D92BF9ED08001BD6EF /* YassirPartnerApp.swift */,
 				FA2950DB2BF9ED08001BD6EF /* ContentView.swift */,
 				FA29515B2BFB4144001BD6EF /* AppDelegate.swift */,
@@ -165,29 +165,6 @@
 				FA2950E02BF9ED0B001BD6EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FA2950E82BF9F21F001BD6EF /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FA29511B2BFA4B91001BD6EF /* Realm */,
-				FA2951202BFA4B91001BD6EF /* CGFloat.swift */,
-				FA29511F2BFA4B91001BD6EF /* Color.swift */,
-				FA29511E2BFA4B91001BD6EF /* Font.swift */,
-				FA29511C2BFA4B91001BD6EF /* Text.swift */,
-				FA29511D2BFA4B91001BD6EF /* UIAplication.swift */,
-			);
-			path = extensions;
-			sourceTree = "<group>";
-		};
-		FA2950E92BF9F229001BD6EF /* ressources */ = {
-			isa = PBXGroup;
-			children = (
-				FA29510F2BFA4B6E001BD6EF /* Font */,
-				FA2951092BFA4B6E001BD6EF /* Lottie */,
-				FA2951112BFA4B6E001BD6EF /* MapStyle */,
-			);
-			path = ressources;
 			sourceTree = "<group>";
 		};
 		FA2950EA2BF9F236001BD6EF /* screens */ = {
@@ -237,47 +214,6 @@
 				FA2951062BFA2BAA001BD6EF /* Taskk.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		FA2951092BFA4B6E001BD6EF /* Lottie */ = {
-			isa = PBXGroup;
-			children = (
-				FA2951082BFA4B6E001BD6EF /* progress-animation.json */,
-			);
-			name = Lottie;
-			path = ../../../YassirGO/YassirRider/Ressources/Lottie;
-			sourceTree = "<group>";
-		};
-		FA29510F2BFA4B6E001BD6EF /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				FA29510A2BFA4B6E001BD6EF /* Rubik-Bold.ttf */,
-				FA29510B2BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf */,
-				FA29510C2BFA4B6E001BD6EF /* Rubik-Medium.ttf */,
-				FA29510D2BFA4B6E001BD6EF /* Rubik-Regular.ttf */,
-				FA29510E2BFA4B6E001BD6EF /* Rubik-SemiBold.ttf */,
-			);
-			name = Font;
-			path = ../../../YassirGO/YassirRider/Ressources/Font;
-			sourceTree = "<group>";
-		};
-		FA2951112BFA4B6E001BD6EF /* MapStyle */ = {
-			isa = PBXGroup;
-			children = (
-				FA2951102BFA4B6E001BD6EF /* style.json */,
-			);
-			name = MapStyle;
-			path = ../../../YassirGO/YassirRider/Ressources/MapStyle;
-			sourceTree = "<group>";
-		};
-		FA29511B2BFA4B91001BD6EF /* Realm */ = {
-			isa = PBXGroup;
-			children = (
-				FA2951192BFA4B91001BD6EF /* Realm.swift */,
-				FA29511A2BFA4B91001BD6EF /* SyncSubscriptionSet.swift */,
-			);
-			name = Realm;
-			path = ../../../YassirGO/YassirRider/Extensions/Realm;
 			sourceTree = "<group>";
 		};
 		FA29513C2BFA4EA2001BD6EF /* Frameworks */ = {
@@ -336,6 +272,66 @@
 				FA29516C2BFCE2E6001BD6EF /* PartnerRepo.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		FA668E8C2C048AB100371628 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E872C048AB100371628 /* Rubik-Bold.ttf */,
+				FA668E882C048AB100371628 /* Rubik-ExtraBold.ttf */,
+				FA668E892C048AB100371628 /* Rubik-Medium.ttf */,
+				FA668E8A2C048AB100371628 /* Rubik-Regular.ttf */,
+				FA668E8B2C048AB100371628 /* Rubik-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FA668E8E2C048AB100371628 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E8D2C048AB100371628 /* progress-animation.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		FA668E902C048AB100371628 /* MapStyle */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E8F2C048AB100371628 /* style.json */,
+			);
+			path = MapStyle;
+			sourceTree = "<group>";
+		};
+		FA668E912C048AB100371628 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E8C2C048AB100371628 /* Font */,
+				FA668E8E2C048AB100371628 /* Lottie */,
+				FA668E902C048AB100371628 /* MapStyle */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		FA668E9B2C048AC500371628 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E992C048AC500371628 /* Realm.swift */,
+				FA668E9A2C048AC500371628 /* SyncSubscriptionSet.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		FA668EA12C048AC500371628 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA668E9B2C048AC500371628 /* Realm */,
+				FA668E9C2C048AC500371628 /* CGFloat.swift */,
+				FA668E9D2C048AC500371628 /* Color.swift */,
+				FA668E9E2C048AC500371628 /* Font.swift */,
+				FA668E9F2C048AC500371628 /* Text.swift */,
+				FA668EA02C048AC500371628 /* UIAplication.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,16 +406,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2951172BFA4B6E001BD6EF /* Rubik-SemiBold.ttf in Resources */,
 				FA2950E12BF9ED0B001BD6EF /* Preview Assets.xcassets in Resources */,
-				FA2951162BFA4B6E001BD6EF /* Rubik-Regular.ttf in Resources */,
-				FA2951182BFA4B6E001BD6EF /* style.json in Resources */,
-				FA2951122BFA4B6E001BD6EF /* progress-animation.json in Resources */,
+				FA668E952C048AB100371628 /* Rubik-Regular.ttf in Resources */,
+				FA668E932C048AB100371628 /* Rubik-ExtraBold.ttf in Resources */,
+				FA668E982C048AB100371628 /* style.json in Resources */,
+				FA668E922C048AB100371628 /* Rubik-Bold.ttf in Resources */,
+				FA668E942C048AB100371628 /* Rubik-Medium.ttf in Resources */,
+				FA668E972C048AB100371628 /* progress-animation.json in Resources */,
 				FA2950FE2BFA0123001BD6EF /* atlasConfig.plist in Resources */,
 				FA2950DE2BF9ED0B001BD6EF /* Assets.xcassets in Resources */,
-				FA2951142BFA4B6E001BD6EF /* Rubik-ExtraBold.ttf in Resources */,
-				FA2951132BFA4B6E001BD6EF /* Rubik-Bold.ttf in Resources */,
-				FA2951152BFA4B6E001BD6EF /* Rubik-Medium.ttf in Resources */,
+				FA668E962C048AB100371628 /* Rubik-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,32 +427,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2950F62BF9FA79001BD6EF /* OpenRealmView.swift in Sources */,
-				FA2951242BFA4B91001BD6EF /* UIAplication.swift in Sources */,
 				FA2951572BFB411E001BD6EF /* CircleBButton.swift in Sources */,
-				FA2951252BFA4B91001BD6EF /* Font.swift in Sources */,
 				FA29516D2BFCE2E6001BD6EF /* PartnerRepo.swift in Sources */,
 				FA29515A2BFB411E001BD6EF /* BackButton.swift in Sources */,
 				FA2950DC2BF9ED08001BD6EF /* ContentView.swift in Sources */,
-				FA2951222BFA4B91001BD6EF /* SyncSubscriptionSet.swift in Sources */,
 				FA2951682BFB9805001BD6EF /* HomeScreenModel.swift in Sources */,
-				FA2951262BFA4B91001BD6EF /* Color.swift in Sources */,
 				FA29515C2BFB4144001BD6EF /* AppDelegate.swift in Sources */,
 				FA2951562BFB411E001BD6EF /* RatingView.swift in Sources */,
+				FA668EA22C048AC500371628 /* Realm.swift in Sources */,
+				FA668EA82C048AC500371628 /* UIAplication.swift in Sources */,
 				FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */,
+				FA668EA72C048AC500371628 /* Text.swift in Sources */,
 				FA2951642BFB976B001BD6EF /* LoginScreenModel.swift in Sources */,
-				FA2951212BFA4B91001BD6EF /* Realm.swift in Sources */,
 				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,
 				FA2950F92BF9FB04001BD6EF /* RealmManager.swift in Sources */,
 				FA2951582BFB411E001BD6EF /* YassirButton.swift in Sources */,
 				FA2950DA2BF9ED08001BD6EF /* YassirPartnerApp.swift in Sources */,
-				FA2951272BFA4B91001BD6EF /* CGFloat.swift in Sources */,
-				FA2951232BFA4B91001BD6EF /* Text.swift in Sources */,
 				FA2951552BFB411E001BD6EF /* NavigationButton.swift in Sources */,
 				FA29514D2BFB40EB001BD6EF /* MapViewController.swift in Sources */,
 				FA2951012BFA022C001BD6EF /* Partner.swift in Sources */,
+				FA668EA32C048AC500371628 /* SyncSubscriptionSet.swift in Sources */,
 				FA29514E2BFB40EB001BD6EF /* MapViewControllerBridge.swift in Sources */,
+				FA668EA42C048AC500371628 /* CGFloat.swift in Sources */,
 				FA29515F2BFB419B001BD6EF /* HomeMapView.swift in Sources */,
 				FA29516B2BFC9CCB001BD6EF /* LoginRepo.swift in Sources */,
+				FA668EA52C048AC500371628 /* Color.swift in Sources */,
+				FA668EA62C048AC500371628 /* Font.swift in Sources */,
 				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
 				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
 				FA2951662BFB97E5001BD6EF /* HomeScreen.swift in Sources */,
