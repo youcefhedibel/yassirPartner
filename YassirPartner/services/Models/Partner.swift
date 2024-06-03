@@ -23,11 +23,14 @@ class Partner: Object, ObjectKeyIdentifiable {
 
     @Persisted var lastLocatin: Location?
     
+    @Persisted var isOnline: Bool
+    
     convenience init(_id: String, fullName: String) {
         self.init()
         self._id = _id
         self.fullName = fullName
         self.phone = "+213 791892621"
+        self.isOnline = true
         self.gender = Gender.male
         self.lastLocatin = Location(latitude: LocationManager.shared.userLocation?.coordinate.latitude ?? 36.75198048828322, longitude: LocationManager.shared.userLocation?.coordinate.longitude ?? 2.951066940403462)
     }

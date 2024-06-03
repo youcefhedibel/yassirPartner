@@ -56,8 +56,11 @@ class PartnerRepo: RealmManager {
         
     }
     
-    
-    
-
-    
+    @MainActor
+    func updatePartnerOnline(isOnline: Bool) throws {
+        
+        try RealmManager.shared.write {
+            self.partner?.isOnline = isOnline
+        }
+    }
 }
