@@ -23,12 +23,7 @@ class LoginRepo: RealmManager {
         
         try await app.emailPasswordAuth.registerUser(email: email, password: password)
         try await self.login(email: email, password: password)
-//        try await RiderRepo.sharedRider.createRider(fullname: fullname)
-        
-        guard let realm = RealmManager.shared.realm else {
-            await RealmManager.shared.initialize()
-            return
-        }
+        try await PartnerRepo.sharedPartner.createPartner(fullName: fullname)
     }
     
     @MainActor

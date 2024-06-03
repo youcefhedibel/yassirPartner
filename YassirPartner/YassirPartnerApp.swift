@@ -10,6 +10,7 @@ import RealmSwift
 
 @main
 struct YassirPartnerApp: SwiftUI.App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()

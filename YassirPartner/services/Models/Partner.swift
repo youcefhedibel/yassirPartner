@@ -10,35 +10,28 @@ import RealmSwift
 import CoreLocation
 
 class Partner: Object, ObjectKeyIdentifiable {
-    @Persisted(primaryKey: true) var _id: ObjectId
+    
+    @Persisted(primaryKey: true) var _id: String
     
     @Persisted var fullName: String
-    
-    @Persisted var email: String
     
     @Persisted var phone: String
     
     @Persisted var gender: Gender
     
-    @Persisted var currentMission: Mission?
-    
+    @Persisted var missions_id: String?
+
     @Persisted var lastLocatin: Location?
     
-    convenience init(_id: ObjectId, fullName: String, email: String, phone: String, gender: Gender, currentMission: Mission, lastLocatin: Location) {
+    convenience init(_id: String, fullName: String) {
         self.init()
-        self._id = .generate()
+        self._id = _id
         self.fullName = fullName
-        self.email = email
-        self.phone = phone
+        self.phone = "+213 791892621"
         self.gender = Gender.male
-        self.currentMission = currentMission
-        self.lastLocatin = lastLocatin
+        self.lastLocatin = Location(latitude: LocationManager.shared.userLocation?.coordinate.latitude ?? 36.75198048828322, longitude: LocationManager.shared.userLocation?.coordinate.longitude ?? 2.951066940403462)
     }
     
-    
-    
-    
-
 }
 
 extension Partner {

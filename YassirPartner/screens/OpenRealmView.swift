@@ -10,23 +10,20 @@ import RealmSwift
 struct OpenRealmView: View {
     @AutoOpen(appId: app.appId, timeout: 2000) var autoOpen
     
-//    @ObservedObject var driver: Driver
-    
-    let realmManager = RealmManager.shared
+    @ObservedObject var partner: Partner
 
     var body: some View {
-        Text("BATATA TATA").font(.black, .regular, 30)
         switch autoOpen {
         case .connecting:
             ProgressView().onAppear{ print("connecting") }
         case .waitingForUser:
             LoginScreen()
         case .open(let realm):
-            HomeScreen()
+            HomeScreen(partner: partner)
         case .progress(let progress):
             ProgressView(progress).onAppear{ print("progress") }
         case .error(let error):
-            EmptyView()
+            EmptyView().onAppear{ print("error \(error)") }
         }
     }
 }

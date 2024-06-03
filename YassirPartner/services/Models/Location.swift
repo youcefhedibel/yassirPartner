@@ -15,7 +15,6 @@ class Location: Object {
    @Persisted var latitude: String
    @Persisted var longitude: String
     
-    
     convenience init(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
         self.init() // Call the designated initializer
         self._id = .generate()

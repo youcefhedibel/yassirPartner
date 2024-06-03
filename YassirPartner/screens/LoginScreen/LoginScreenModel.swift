@@ -18,7 +18,7 @@ extension LoginScreen {
             Task {
                 do {
                     try await LoginRepo.sharedLogin.login(email: email, password: password)
-//                    await RiderRepo.sharedRider.getRider()
+                    await PartnerRepo.sharedPartner.getPartner()
                 }  catch {
                     self.isLoading = false
                     print("username or password incorrect")

@@ -17,7 +17,7 @@ extension Realm {
             subscriptions.checkAndSet(subKey: "Partner", model: Partner.self)
             subscriptions.checkAndSet(subKey: "Location", model: Location.self)
             subscriptions.checkAndSet(subKey: "Mission", model: Mission.self)
-            subscriptions.checkAndSet(subKey: "Taskk", model: Taskk.self)
+            subscriptions.checkAndSet(subKey: "Task", model: Taskk.self)
 
         }
     }

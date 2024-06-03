@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @ObservedObject var partner: Partner
+
+    
     var body: some View {
-        Text("Home screen")
+        VStack{
+            Text("Home screen")
+            Text("\(partner.fullName)")
+        }
     }
 }
 
 #Preview {
-    HomeScreen()
+    HomeScreen(partner: Partner(_id: "RTYUJ", fullName: "Youcef Hedibel"))
 }

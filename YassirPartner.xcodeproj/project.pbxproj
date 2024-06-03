@@ -21,7 +21,7 @@
 		FA2951012BFA022C001BD6EF /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951002BFA022C001BD6EF /* Partner.swift */; };
 		FA2951032BFA253B001BD6EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951022BFA253B001BD6EF /* Location.swift */; };
 		FA2951052BFA278C001BD6EF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951042BFA278C001BD6EF /* Mission.swift */; };
-		FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Taskk.swift */; };
+		FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2951062BFA2BAA001BD6EF /* Task.swift */; };
 		FA29513B2BFA4D87001BD6EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513A2BFA4D87001BD6EF /* Lottie */; };
 		FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513D2BFA4EAF001BD6EF /* GoogleMaps */; };
 		FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */; };
@@ -73,7 +73,7 @@
 		FA2951002BFA022C001BD6EF /* Partner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
 		FA2951022BFA253B001BD6EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FA2951042BFA278C001BD6EF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
-		FA2951062BFA2BAA001BD6EF /* Taskk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskk.swift; sourceTree = "<group>"; };
+		FA2951062BFA2BAA001BD6EF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FA29514A2BFB40EB001BD6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FA29514B2BFB40EB001BD6EF /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
 		FA29514F2BFB411E001BD6EF /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 				FA2951002BFA022C001BD6EF /* Partner.swift */,
 				FA2951022BFA253B001BD6EF /* Location.swift */,
 				FA2951042BFA278C001BD6EF /* Mission.swift */,
-				FA2951062BFA2BAA001BD6EF /* Taskk.swift */,
+				FA2951062BFA2BAA001BD6EF /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -436,7 +436,7 @@
 				FA2951562BFB411E001BD6EF /* RatingView.swift in Sources */,
 				FA668EA22C048AC500371628 /* Realm.swift in Sources */,
 				FA668EA82C048AC500371628 /* UIAplication.swift in Sources */,
-				FA2951072BFA2BAA001BD6EF /* Taskk.swift in Sources */,
+				FA2951072BFA2BAA001BD6EF /* Task.swift in Sources */,
 				FA668EA72C048AC500371628 /* Text.swift in Sources */,
 				FA2951642BFB976B001BD6EF /* LoginScreenModel.swift in Sources */,
 				FA2951032BFA253B001BD6EF /* Location.swift in Sources */,

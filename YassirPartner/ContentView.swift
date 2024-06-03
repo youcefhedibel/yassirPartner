@@ -10,19 +10,22 @@ import RealmSwift
 
 struct ContentView: View {
     @StateObject private var realmManager = RealmManager.shared
+    @StateObject private var partnerManager = PartnerRepo.sharedPartner
+    
     var body: some View {
-        Text("El hadj Hocine").font(.black, .regular, 30)
-
-        if nil != realmManager.realm {
+        if let _ = app.currentUser {
             ZStack{
-                if let realm = realmManager.realm {
-                    OpenRealmView()
+                if let partner = partnerManager.partner,
+                   nil != realmManager.realm {
+
+                    OpenRealmView(partner: partner)
                 }
             }
             .task{  await realmManager.initialize() }
         } else {
             LoginScreen()
         }
+
     }
     
     private func runTasks() async {
