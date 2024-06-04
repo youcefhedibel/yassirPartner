@@ -57,6 +57,9 @@
 		FA668EA62C048AC500371628 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9E2C048AC500371628 /* Font.swift */; };
 		FA668EA72C048AC500371628 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668E9F2C048AC500371628 /* Text.swift */; };
 		FA668EA82C048AC500371628 /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA668EA02C048AC500371628 /* UIAplication.swift */; };
+		FA734E812C0EF8EB00E65591 /* BottomSheetUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA734E802C0EF8EB00E65591 /* BottomSheetUI */; };
+		FA734E842C0EF93900E65591 /* MissionFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA734E832C0EF93900E65591 /* MissionFlowScreen.swift */; };
+		FA734E862C0EF94700E65591 /* MissionFlowScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA734E852C0EF94700E65591 /* MissionFlowScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +107,8 @@
 		FA668E9E2C048AC500371628 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		FA668E9F2C048AC500371628 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		FA668EA02C048AC500371628 /* UIAplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
+		FA734E832C0EF93900E65591 /* MissionFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionFlowScreen.swift; sourceTree = "<group>"; };
+		FA734E852C0EF94700E65591 /* MissionFlowScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionFlowScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2951402BFA4EB8001BD6EF /* GoogleMapsBase in Frameworks */,
+				FA734E812C0EF8EB00E65591 /* BottomSheetUI in Frameworks */,
 				FA2951442BFA4EBE001BD6EF /* GoogleMapsM4B in Frameworks */,
 				FA2951422BFA4EBB001BD6EF /* GoogleMapsCore in Frameworks */,
 				FA29513E2BFA4EAF001BD6EF /* GoogleMaps in Frameworks */,
@@ -170,6 +176,7 @@
 		FA2950EA2BF9F236001BD6EF /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				FA734E822C0EF91E00E65591 /* MissionFlowScreen */,
 				FA2951602BFB9740001BD6EF /* LoginScreen */,
 				FA29515D2BFB418F001BD6EF /* HomeScreen */,
 				FA2950F52BF9FA79001BD6EF /* OpenRealmView.swift */,
@@ -334,6 +341,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		FA734E822C0EF91E00E65591 /* MissionFlowScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA734E832C0EF93900E65591 /* MissionFlowScreen.swift */,
+				FA734E852C0EF94700E65591 /* MissionFlowScreenModel.swift */,
+			);
+			path = MissionFlowScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,6 +374,7 @@
 				FA29513F2BFA4EB8001BD6EF /* GoogleMapsBase */,
 				FA2951412BFA4EBB001BD6EF /* GoogleMapsCore */,
 				FA2951432BFA4EBE001BD6EF /* GoogleMapsM4B */,
+				FA734E802C0EF8EB00E65591 /* BottomSheetUI */,
 			);
 			productName = YassirPartner;
 			productReference = FA2950D62BF9ED08001BD6EF /* YassirPartner.app */;
@@ -391,6 +408,7 @@
 				FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
 				FA2950F02BF9F4EC001BD6EF /* XCRemoteSwiftPackageReference "realm-swift" */,
 				FA2951392BFA4D87001BD6EF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FA734E7F2C0EF8EB00E65591 /* XCRemoteSwiftPackageReference "BottomSheetUI-iOS" */,
 			);
 			productRefGroup = FA2950D72BF9ED08001BD6EF /* Products */;
 			projectDirPath = "";
@@ -456,8 +474,10 @@
 				FA2951052BFA278C001BD6EF /* Mission.swift in Sources */,
 				FA2950EE2BF9F341001BD6EF /* LocationManager.swift in Sources */,
 				FA2951662BFB97E5001BD6EF /* HomeScreen.swift in Sources */,
+				FA734E862C0EF94700E65591 /* MissionFlowScreenModel.swift in Sources */,
 				FA2951622BFB9759001BD6EF /* LoginScreen.swift in Sources */,
 				FA2950FB2BF9FF21001BD6EF /* RealmConfig.swift in Sources */,
+				FA734E842C0EF93900E65591 /* MissionFlowScreen.swift in Sources */,
 				FA2951592BFB411E001BD6EF /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,6 +712,14 @@
 				minimumVersion = 4.4.3;
 			};
 		};
+		FA734E7F2C0EF8EB00E65591 /* XCRemoteSwiftPackageReference "BottomSheetUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ayoubElhoucine/BottomSheetUI-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -729,6 +757,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA2950EF2BF9F48D001BD6EF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
 			productName = GoogleMapsM4B;
+		};
+		FA734E802C0EF8EB00E65591 /* BottomSheetUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA734E7F2C0EF8EB00E65591 /* XCRemoteSwiftPackageReference "BottomSheetUI-iOS" */;
+			productName = BottomSheetUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
